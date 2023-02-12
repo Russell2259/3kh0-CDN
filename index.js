@@ -4,6 +4,12 @@ import fetch from 'node-fetch';
 const app = express();
 const repository = '3kh0/3kh0-Assets/main';
 
+app.all('/', async (req, res) => {
+    const file = await fetch('https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/assets/games.json');
+    const games = await file.json();
+    res.json(games);
+})
+
 app.all('*', async (req, res) => {
     try {
         const file = await fetch(`https://raw.githubusercontent.com/${repository}${req.originalUrl}`);
