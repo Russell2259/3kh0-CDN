@@ -27,6 +27,6 @@ app.all('*', async (req, res) => {
     }
 })
 
-app.listen(3000, () => {
-    console.log('Your 3kh0.github.io CDN server is running on port 3000')
+app.listen(9000, () => {
+    console.log('Your 3kh0.github.io CDN server is running on port 9000')
 })
