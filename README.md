@@ -10,6 +10,7 @@ This is a server that acts like a mirror for the [3kh0-Assets](https://github.co
 You can find instructions on how to use and deploy in the [wiki](https://github.com/Russell2259/3kh0-CDN/wiki).
 
 ## Deploy it yourself
+You can deploy the CDN by clicking one of the buttons below.
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/Russell2259/3kh0-CDN)
 [![Deploy to Cyclic](https://binbashbanana.github.io/deploy-buttons/buttons/remade/cyclic.svg)](https://app.cyclic.sh/api/app/deploy/Russell2259/3kh0-CDN)
 [![Run on Replit](https://binbashbanana.github.io/deploy-buttons/buttons/remade/replit.svg)](https://replit.com/github/Russell2259/3kh0-CDN)
