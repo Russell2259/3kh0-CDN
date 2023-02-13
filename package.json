@@ -1,6 +1,6 @@
 {
   "name": "3kh0-cdn",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A node.js server for hosting a 3kh0 CDN",
   "main": "index.js",
   "type": "module",
