@@ -5,7 +5,7 @@
 </p>
 <h1 align="center">3kh0-CDN</h1>
 
-This is a server that acts like a mirror for the [3kh0-Assets](https://github.com/3kh0/3kh0-Assets) repository and serves as a CDN for [3kh0.github.io]([https://github.com/3kh0/3kh0-Assets](https://3kh0.github.io)) 
+This is a server that acts like a mirror for the [3kh0-Assets](https://github.com/3kh0/3kh0-Assets) repository and serves as a CDN for [3kh0.github.io](https://3kh0.github.io) 
 
 ## Deploy it yourself
 [![Deploy to Render](https://binbashbanana.github.io/deploy-buttons/buttons/remade/render.svg)](https://render.com/deploy?repo=https://github.com/Russell2259/3kh0-CDN)
