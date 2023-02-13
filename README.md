@@ -32,3 +32,6 @@ $ npm start
 Thank you to all of these amazing people for helping work on this project!
 
 ![Contrib](https://contrib.rocks/image?repo=Russell2259/3kh0-CDN#)
+
+## Stats
+![Alt](https://repobeats.axiom.co/api/embed/1f9990fe724717415f429764390e1a7705348293.svg "Repobeats analytics image")
