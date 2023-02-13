@@ -5,5 +5,11 @@ if (window.location.pathname.endsWith('/')) {
         .then(data => {
             readme.innerHTML = data;
         })
-    alert('bru');
+        .catch(e => {
+            throw new Error(e);
+        })
+}
+
+window.onerror = (e) => {
+    alert(e)
 }
