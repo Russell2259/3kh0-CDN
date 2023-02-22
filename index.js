@@ -12,15 +12,15 @@ app.all('/', async (req, res) => {
 
 app.all('*', async (req, res) => {
     try {
-        const file = await fetch(`https://raw.githubusercontent.com/${repository}${req.originalUrl}`);
+        const file = await fetch(`https://raw.githack.com/${repository}${req.originalUrl}`);
         const data = new Buffer.from(await file.arrayBuffer());
-
-        if (file.headers.get('content-type').split(';')[0] == 'text/plain' && req.path.endsWith('.html') || req.path.endsWith('.htm')) {
-            res.writeHead(file.status, { 'Content-Type': 'text/html' })
-        } else {
+        
+        if (file.status !== 404) {
             res.writeHead(file.status, { 'Content-Type': file.headers.get('content-type').split(';')[0] })
+            res.end(data);
+        } else {
+            return res.sendStatus(404);
         }
-        res.end(data);
     } catch (e) {
         res.sendStatus(404);
         throw new Error(e);
