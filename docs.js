@@ -1,3 +1,3 @@
-window.onerror = (e) => {
+/*window.onerror = (e) => {
     alert(e);
-}
+}*/
