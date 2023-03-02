@@ -24,7 +24,6 @@
   },
   "homepage": "https://github.com/Russell2259/3kh0-CDN#readme",
   "dependencies": {
-    "express": "^4.18.2",
     "node-fetch": "^3.3.0"
   }
 }
