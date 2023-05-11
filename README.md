@@ -25,7 +25,7 @@ $ git clone https://github.com/Russell2259/3kh0-CDN.git
 Make sure you have [nodejs](https://nodejs.org) installed for these next steps:
 
 ```bash
-$ cd Mirror
+$ cd 3kh0-CDN
 $ npm install
 $ npm start
 ```
