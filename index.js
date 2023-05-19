@@ -5,7 +5,7 @@ const app = express();
 const repository = '1kh0/3kh0TEMP/main';
 
 app.all('/', (req, res) => {
-  fetch('https://raw.githubusercontent.com/1kh0/3kh0TEMP/main/assets/json/games.json')
+  fetch('https://raw.githubusercontent.com/3kh0/website-v4/main/assets/json/games.json')
     .then((file) => file.json())
     .then((games) => res.json(games))
     .catch((e) => {
