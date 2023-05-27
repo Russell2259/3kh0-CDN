@@ -1,6 +1,10 @@
+> 3kh0.github.io has shut down and now this repo has no use
+> 
+> If you would like to help with a continued version of 3kh0 please see [here](https://github.com/NebulaServices/3kh0)
+
 <p align="center">
 <kbd>
-<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/3kh0/3kh0.github.io/main/images/logo.png">
+<img style="border-radius:50%" height="150px" src="https://raw.githubusercontent.com/3kh0/website-v4/main/images/logo.png">
 </kbd>
 </p>
 <h1 align="center">3kh0-CDN</h1>
